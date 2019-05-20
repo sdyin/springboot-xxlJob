@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
 
 /**
  * @Description
@@ -14,6 +14,7 @@ import org.springframework.context.annotation.ComponentScan;
  * @Date 2019/5/17 15:36
  */
 @Configurable
+@Component
 public class XxlJobConfig {
 
     private Logger logger = LoggerFactory.getLogger(XxlJobConfig.class);
